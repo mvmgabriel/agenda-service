@@ -1,13 +1,13 @@
-package br.com.mvmgabriel.agenda.demo;
+package br.com.mvmgabriel.agenda;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class AgendaApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(AgendaApp.class, args);
 	}
 
 }
